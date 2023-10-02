@@ -5,7 +5,7 @@ import { PlaidLinkOnSuccessMetadata } from 'react-plaid-link';
 
 import { DuplicateItemToastMessage } from '../components';
 
-const baseURL = '/';
+const baseURL = '/api';
 
 const api = axios.create({
   baseURL,
